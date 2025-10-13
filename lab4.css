@@ -11,6 +11,7 @@ body {
   padding: 0;
   
 background: #4CC9E4;
+  
  text-align: center;
 }
 svg {
@@ -395,4 +396,5 @@ h3 {
   0% { transform: translate(-50%, -50%) rotateY(0deg); }
   100% { transform: translate(-50%, -50%) rotateY(180deg); }
 }
+
 
