@@ -11,9 +11,12 @@ body {
   padding: 0;
   
 background: #4CC9E4;
- 
+ text-align: center;
 }
-
+svg {
+  display: block;
+  margin: 20px auto; 
+}
 .box-canvas{
   position: relative;
   margin: auto;
@@ -392,3 +395,4 @@ h3 {
   0% { transform: translate(-50%, -50%) rotateY(0deg); }
   100% { transform: translate(-50%, -50%) rotateY(180deg); }
 }
+
