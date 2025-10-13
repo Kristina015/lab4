@@ -11,7 +11,8 @@ body {
   padding: 0;
   text-align: center;
 background: #4CC9E4;
- 
+ justify-content: center;    /* центрує по вертикалі */
+  align-items: center;
 }
 svg {
   display: block;
@@ -395,6 +396,7 @@ h3 {
   0% { transform: translate(-50%, -50%) rotateY(0deg); }
   100% { transform: translate(-50%, -50%) rotateY(180deg); }
 }
+
 
 
 
